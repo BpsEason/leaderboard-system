@@ -1,0 +1,14 @@
+# leaderboard-system/proxysql/proxysql.cnf
+# This is a minimal initial proxysql.cnf.
+# Most configuration for backends, users, and rules will be done via the admin interface
+# or the init_proxysql.sql script.
+
+[mysql]
+mysql-port=6033
+mysql-interface=0.0.0.0
+mysql-threads=4
+
+[proxysql]
+# Admin interface
+admin-web_port=9032
+admin-web_interface=0.0.0.0
