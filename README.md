@@ -80,7 +80,7 @@ graph TD
 **快速啟動**
 
 ```bash
-git clone https://github.com/your-username/leaderboard-system.git
+git clone https://github.com/BpsEason/leaderboard-system.git
 cd leaderboard-system
 
 cp .env.example .env
